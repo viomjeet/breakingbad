@@ -19,7 +19,7 @@ export default function Characters({ data }) {
                                             <h6>Occupation</h6>
                                             <ul>
                                                 {items.occupation.map((occupation, index) => {
-                                                    return <li key={index}>{index + 1}. {occupation}</li>
+                                                    return <li key={index}>{occupation}</li>
                                                 })}
                                             </ul>
                                         </div>

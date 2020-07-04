@@ -42,7 +42,7 @@ body {
 }
 
 .loading:after {
-  content: '';
+  content      : '';
   width        : 100px;
   height       : 100px;
   display      : flex;
@@ -201,7 +201,22 @@ body {
 
 @media(max-width:767px) {
   .card_img {
-    max-height: 170px;
+    max-height: 200px;
     overflow  : hidden;
+  }
+
+  .cus_card {
+    margin-left  : -12px;
+    margin-right : -12px;
+    margin-bottom: 5px;
+  }
+
+  .cus_card .char_name {
+    font-size: 12px;
+    left     : 5px;
+  }
+
+  .cus_card .card_body {
+    padding: 10px 25px;
   }
 }
